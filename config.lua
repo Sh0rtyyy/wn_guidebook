@@ -1,20 +1,25 @@
 Config = {}
-Config.Framework = "ESX"
+Config.Framework = "ESX" -- ESX or qbcore
 
 Config.Guidebook = {
     {
         title = "How to buy phone ?",
-        message = "You need to go to shop" .. "https://cdn.discordapp.com/attachments/906936491740106794/1200503533405995008/upnatom_cup.png?ex=65c66b0a&is=65b3f60a&hm=e955fcc747048f5ee639b5a50c399a59eb74b6f935561462e31195b56978f2e1&",
-        job = "police",
+        message = "You need to go to the 24/7.",
+        job = nil,
     },   
     {
-        title = "How to buy gun ?",
-        message = "You need to go to ammo shop",
-        job = "ambulance",
-    }, 
-    {
         title = "How to buy a car ?",
-        message = "You need to go to dealer",
+        message = "There is a car dealer on the 6541 postal.",
         job = nil,
+    },
+    {
+        title = "What to do, when a preson is bleading ?",
+        message = "Stay Calm: Keep yourself composed to provide effective assistance. Call for Help: Dial emergency services immediately for professional assistance. Protect Yourself: Use gloves or any available barrier to protect yourself from bloodborne pathogens. Apply Pressure: Use a clean cloth or bandage to apply direct pressure on the wound. Elevate the Wound: If possible, elevate the bleeding area above the level of the heart. Maintain Pressure: Continue applying pressure until help arrives or bleeding stops",
+        job = "ambulance",
+    },
+    {
+        title = "Whats the miranda ?",
+        message = "You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford one, one will be appointed to you by the court. Do you understand your rights ?",
+        job = "police",
     },
 }
