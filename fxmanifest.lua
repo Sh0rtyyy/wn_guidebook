@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'mrshortyno'
-description 'Guidebook script'
+description 'Guidebook script. Discord for support: https://discord.gg/73FzXcKAQu'
 version '1.0.0'
 lua54 'yes'
 
