@@ -41,8 +41,19 @@ function showGuidebook()
             currentJob = Player.job.name
         end 
 
+        if Config.Framework == "qbcore" then 
+            local Player = QBCore.Functions.GetPlayerData()
+            currentGang = Player.gang.name
+        end
+
         if option.job then
             if option.job ~= currentJob then
+                shouldAddOption = false
+            end
+        end
+
+        if option.gang then
+            if option.gang ~= currentGang then
                 shouldAddOption = false
             end
         end
