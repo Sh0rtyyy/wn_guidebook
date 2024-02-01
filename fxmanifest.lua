@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'mrshortyno'
 description 'Guidebook script. Discord for support: https://discord.gg/73FzXcKAQu'
-version '1.0.0'
+version '1.1.0'
 lua54 'yes'
 
 client_scripts {
